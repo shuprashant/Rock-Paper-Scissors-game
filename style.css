@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Container img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 20px 20px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.msgtext{
+    text-align: center;
+    background: yellowgreen;
+    padding: 2px 5px 2px 5px;
+    position: inherit;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.User_val{
+    margin: 0 20px;
+}
